@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://a.ppy.sh/6665667",
+    "link": "http://dh.aks.ac.kr/~jisun/edu/index.php/%EC%9C%A4%ED%98%95%EC%84%9DKU23",
+    "text": "윤형석"
+  },
+  "text": {
+    "more": "서울 고등학교 교가에 등장한 산과, 해당 고등학교의 교목/교화를 분석해 보았습니다.",
+    "intro": "서울 고등학교 교가에 등장한 산과, 해당 고등학교의 교목/교화를 분석해 보았습니다.",
+    "title": "서울 고등학교 교가에 등장한 산과 고등학교의 교목/교화 분석"
+  },
+  "legend": {
+    "edgeLabel": "Relation",
+    "colorLabel": "Class",
+    "nodeLabel": "서울 고등학교 교가/교화/교목 정보"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
